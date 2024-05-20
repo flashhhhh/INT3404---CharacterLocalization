@@ -9,7 +9,7 @@ from multiprocessing.pool import ThreadPool
 from pathlib import Path
 from urllib import parse, request
 
-import requests
+# import requests
 import torch
 
 from ultralytics.utils import LOGGER, checks, clean_url, emojis, is_online, url2file

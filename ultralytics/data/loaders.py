@@ -11,7 +11,7 @@ from urllib.parse import urlparse
 
 import cv2
 import numpy as np
-import requests
+# import requests
 import torch
 from PIL import Image
 

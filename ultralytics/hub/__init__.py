@@ -1,6 +1,6 @@
 # Ultralytics YOLO 🚀, AGPL-3.0 license
 
-import requests
+# import requests
 
 from ultralytics.data.utils import HUBDatasetStats
 from ultralytics.hub.auth import Auth
