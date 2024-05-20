@@ -8,7 +8,7 @@ import numpy as np
 import torch
 from PIL import Image
 
-from ultralytics.utils import TQDM, checks
+from ultralytics.utils import checks
 
 
 class FastSAMPrompt:

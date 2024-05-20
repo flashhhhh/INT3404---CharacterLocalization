@@ -45,7 +45,7 @@ from ultralytics.nn.autobackend import AutoBackend
 from ultralytics.utils import DEFAULT_CFG, LOGGER, MACOS, WINDOWS, callbacks, colorstr, ops
 from ultralytics.utils.checks import check_imgsz, check_imshow
 from ultralytics.utils.files import increment_path
-from ultralytics.utils.torch_utils import select_device, smart_inference_mode
+from ultralytics.utils.torch_utils import smart_inference_mode
 
 STREAM_WARNING = """
 WARNING ⚠️ inference results will accumulate in RAM unless `stream=True` is passed, causing potential out-of-memory
@@ -296,7 +296,7 @@ class BasePredictor:
         """Initialize YOLO model with given parameters and set it to evaluation mode."""
         self.model = AutoBackend(
             weights=model or self.args.model,
-            device=select_device(self.args.device, verbose=verbose),
+            # device=select_device(self.args.device, verbose=verbose),
             dnn=self.args.dnn,
             data=self.args.data,
             fp16=self.args.half,

@@ -13,7 +13,7 @@ import torch
 from PIL import Image
 from torch.utils.data import ConcatDataset
 
-from ultralytics.utils import LOCAL_RANK, NUM_THREADS, TQDM, colorstr
+from ultralytics.utils import LOCAL_RANK, NUM_THREADS, colorstr#TQDM
 from ultralytics.utils.ops import resample_segments
 
 from .augment import (

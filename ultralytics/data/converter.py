@@ -7,7 +7,7 @@ from pathlib import Path
 import cv2
 import numpy as np
 
-from ultralytics.utils import LOGGER, TQDM
+from ultralytics.utils import LOGGER#, TQDM
 from ultralytics.utils.files import increment_path
 
 

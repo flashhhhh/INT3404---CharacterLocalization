@@ -9,7 +9,7 @@ import numpy as np
 import torch
 from matplotlib import pyplot as plt
 from PIL import Image
-from tqdm import tqdm
+# from tqdm import tqdm
 
 from ultralytics.data.augment import Format
 from ultralytics.data.dataset import YOLODataset

@@ -20,7 +20,7 @@ from ultralytics.utils import (
     RANK,
     SETTINGS,
     TESTS_RUNNING,
-    TQDM,
+    # TQDM,
     TryExcept,
     __version__,
     colorstr,

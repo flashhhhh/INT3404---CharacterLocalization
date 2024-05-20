@@ -28,7 +28,7 @@ from ultralytics.utils import (
     DEFAULT_CFG,
     LOGGER,
     RANK,
-    TQDM,
+    # TQDM,
     __version__,
     callbacks,
     clean_url,
@@ -46,7 +46,7 @@ from ultralytics.utils.torch_utils import (
     convert_optimizer_state_dict_to_fp16,
     init_seeds,
     one_cycle,
-    select_device,
+    # select_device,
     strip_optimizer,
 )
 

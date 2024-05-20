@@ -23,7 +23,7 @@ from ultralytics.utils import (
     NUM_THREADS,
     ROOT,
     SETTINGS_YAML,
-    TQDM,
+    # TQDM,
     clean_url,
     colorstr,
     emojis,
