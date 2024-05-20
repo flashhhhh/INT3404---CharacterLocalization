@@ -7,7 +7,7 @@ import threading
 import time
 from pathlib import Path
 
-# import requests
+import requests
 
 from ultralytics.utils import (
     ARGV,
