@@ -1,7 +1,7 @@
 from ultralytics import YOLO
 
 def predict(img):
-    model = YOLO("best2.pt")
+    model = YOLO("83.2acc,6.2mem.pt")
     results = model(img)
 
     for result in results:
