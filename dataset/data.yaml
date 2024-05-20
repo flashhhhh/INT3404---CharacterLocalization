@@ -1,0 +1,5 @@
+train: /content/INT3404---CharacterLocalization/dataset/images/train
+val: /content/INT3404---CharacterLocalization/dataset/images/val
+
+nc: 1
+names: ['Chinese']
